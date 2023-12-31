@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/zui-vue-next/',
   title: "ZuiVueNext",
   description: "A Vue UI component library based on zui3",
   themeConfig: {
